@@ -3,9 +3,53 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--demo -->
 <mapper namespace="demo">
-    <!-- 登录验证 -->
-    <select id="login" parameterType="pd" resultType="pd">
-       select * from user where username = #{username} and password = #{password}
-    </select>
+
+    <!-- 查询全部用户信息列表分页 -->
+    <select id="demolistPage" parameterType="page" resultType="pd">
+   SELECT * FROM employee
+</select>
+
+    <!-- 用户信息根据id查找 -->
+    <select id="finduserById" parameterType="pd" resultType="pd">
+   select * from employee  where id = #{id}
+</select>
+    <!--用户信息修改 -->
+    <update id="updateuser" parameterType="pd" flushCache="false">
+   update employee
+   set
+   name = #{name}
+   , age = #{age}
+   , sex = #{sex}
+   , address = #{address}
+   , phone = #{phone}
+   , password = #{password}
+  where
+    id = #{id}
+</update>
+
+    <!--用户信息删除 -->
+    <delete id="deleteuser" parameterType="pd">
+    delete from employee where id = #{id}
+</delete>
+
+    <!-- 用户信息保存-->
+    <insert id="saveuser" parameterType="pd">
+   INSERT INTO employee
+          (id
+          ,name
+          ,age
+          ,sex
+          ,address
+          ,phone
+          ,password)
+      VALUES
+          (null
+          ,#{name}
+          ,#{age}
+          ,#{sex}
+          ,#{address}
+          ,#{phone}
+          ,#{password})
+</insert>
 
 </mapper>
