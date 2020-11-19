@@ -201,6 +201,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="353" y="58" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1605755915590" />
+    <state x="364" y="0" key="CommitChangelistDialog2" timestamp="1605757324128">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="364" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605757324128" />
     <state x="542" y="155" key="FileChooserDialogImpl" timestamp="1605755631060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -257,9 +261,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605756509289" />
-    <state x="353" y="133" key="Vcs.Push.Dialog.v2" timestamp="1605757206426">
+    <state x="353" y="133" key="Vcs.Push.Dialog.v2" timestamp="1605757337128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="353" y="133" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605757206426" />
+    <state x="353" y="133" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605757337128" />
   </component>
 </project>
